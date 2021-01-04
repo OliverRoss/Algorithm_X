@@ -6,7 +6,7 @@ The n-queens problem is to place `n` queens on an `n x n` chessboard, without an
 
 ## Knuth's Algorithm X
 
-[Knuth's Algorithm X](https://arxiv.org/pdf/cs/0011047.pdf) solves exact cover problem. 
+[Knuth's Algorithm X](https://arxiv.org/pdf/cs/0011047.pdf) solves the exact cover problem. 
 The n-queens problem can be seen as a generalized version of an exact cover problem.
 Using a technique called "dancing links" (see the linked paper), the algorithm is quite efficient.
 
