@@ -1,9 +1,9 @@
 # Knuth's Algorithm X 
 
 This repository implements [Knuth's Algorithm X](https://arxiv.org/pdf/cs/0011047.pdf), which solves the exact cover 
-problem as a C library.
+problem. 
 Using a technique called "dancing links" (see the linked paper), the algorithm is quite efficient.
-The implementation is a C port from [this blog post's](http://www.nohuddleoffense.de/2019/01/20/dancing-links-algorithm-x-and-the-n-queens-puzzle/) Go code. I added some logic to generalize it to arbitrary problem sizes.
+The implementation is a port from [this blog post's](http://www.nohuddleoffense.de/2019/01/20/dancing-links-algorithm-x-and-the-n-queens-puzzle/) Go code to a C library. I added some logic to generalize it to arbitrary problem sizes.
 
 ## Using the library
 
